@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Computer Science Student | Web Developer | Portfolio">
+    <title>Nidhi Soni | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Google font-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+    />
+
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Nidhi<span>.</span></div>
+
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="typing">I'm a <span id="typing-text"></span></p>
+        <h1>
+          Hi, I'm
+          <br />
+          <span>Nidhi Soni</span>
+        </h1>
+
+        <p class="description">
+          I create responsive and interactive websites using HTML, CSS,
+          JavaScript and modern web technologies.
+        </p>
+
+        <div class="buttons">
+          <a href="resume/resume.pdf" class="btn" download aria-label="Download Resume">Download Resume</a>
+
+          <a href="#contact" class="btn">Contact Me</a>
+
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="circle"></div>
+        <img src="image/avtar1.png" alt="Portrait illustration of Nidhi Soni working on a laptop" class="floatinng"/>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <div class="about-circle"></div>
+          <img src="image/avtar.png" alt="Portrait illustration of Nidhi Soni working on a laptop" />
+        </div>
+        <div class="about-content">
+          <h2>About <span>Me</span></h2>
+          <h3>Frontend Developer & CSE Student</h3>
+
+          <p>
+            Hi, I'm Nidhi, a Computer Science Engineering student passionate
+            about building modern and responsive web applications.
+          </p>
+
+          <p>
+            I enjoy creating UI designs & solving problems using HTML, CSS,
+            JavaScript and React. Currently, I am improving my frontend
+            development skills and exploring modern web technologies.
+          </p>
+
+          <div class="about-buttonns">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#" class="btn-secondary">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section id="skills" class="skills">
+      <h2>My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <!-- Frontend -->
+        <div class="skill-card">
+          <h3>Frontend Development</h3>
+
+          <div class="skill">
+            <p>HTML5 <span>90%</span></p>
+            <div class="progress">
+              <div class="bar html"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <p>CSS3 <span>85%</span></p>
+            <div class="progress">
+              <div class="bar css"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <p>JavaScript <span>80%</span></p>
+            <div class="progress">
+              <div class="bar js"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <p>React.js <span>55%</span></p>
+            <div class="progress">
+              <div class="bar react"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skill-card">
+          <h3>Programming Languages</h3>
+
+          <ul>
+            <li>Java</li>
+            <li>JavaSript</li>
+            <li>Python</li>
+            <li>C</li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card">
+          <h3>Tools & Technologies</h3>
+
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Netlify</li>
+            <li>Vercel</li>
+          </ul>
+        </div>
+
+        <!-- Concepts -->
+        <div class="skill-card">
+          <h3>Concepts</h3>
+          <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>Object Oriented Programming</li>
+            <!-- <li>Database Management System</li>
+                <li>Computer Networks</li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SECTION -->
+
+    <section class="projects" id="projects">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="projects-container">
+
+        <!-- Recipe Website -->
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/recipe.png" alt="Recipe Website" />
+
+            <div class="overlay">
+              <a href="https://nidhi-recipe-sharing.netlify.app/" target="_blank">Live</a>
+
+              <a
+                href="https://github.com/nidhi-soni1203/Recipe-Sharing-Website"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Recipe Sharing Website</h3>
+            <p>
+              A responsive recipe website where users can explore recipes with a
+              clean and interactive interface.
+            </p>
+            <br /><span>HTML | CSS | JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Currency Converter -->
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/currency.png" alt="Currency Converter" />
+
+            <div class="overlay">
+              <a
+                href="https://nidhi-currency-convertor.netlify.app/"
+                target="_blank"
+              >
+                Live
+              </a>
+
+              <a
+                href="https://github.com/nidhi-soni1203/Currency-Convertor"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Currency Converter</h3>
+
+            <p>Built a real-time currency converter using Exchange Rate API with dynamic conversion and country flag support.
+            </p>
+
+            <br /><span> HTML | CSS | JavaScript | API </span>
+          </div>
+        </div>
+
+        <!-- Amazon Clone -->
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/amazon.png" alt="Amazon Clone" />
+
+            <div class="overlay">
+              <a href="https://nidhi-amazon-clone.netlify.app/" target="_blank"> Live </a>
+
+              <a
+                href="https://github.com/nidhi-soni1203/Amazon-Clone"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Amazon Clone</h3>
+
+            <p>Frontend clone of Amazon homepage with responsive design.</p>
+
+            <br /><span> HTML | CSS </span>
+          </div>
+        </div>
+
+        <!-- Rock Paper Scissors -->
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/Rock.png" alt="Rock Paper Scissors" />
+
+            <div class="overlay">
+              <a href="https://nidhi-rps-game.netlify.app/" target="_blank"> Live </a>
+
+              <a
+                href="https://github.com/nidhi-soni1203/Rock-Paper-Scissor-Game"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Rock Paper Scissors</h3>
+
+            <p>Interactive game built using JavaScript logic and DOM.</p>
+
+            <br /><span> HTML | CSS | JavaScript </span>
+          </div>
+        </div>
+
+        <!-- Tic Tac Toe -->
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="image/tic.png" alt="Tic Tac Toe" />
+
+            <div class="overlay">
+              <a href="https://nidhi-tic-tac-toe.netlify.app/" target="_blank"> Live </a>
+
+              <a
+                href="https://github.com/nidhi-soni1203/Tic-Tac-Toe-Game"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content">
+            <h3>Tic Tac Toe Game</h3>
+
+            <p>Classic tic tac toe game with interactive gameplay.</p>
+
+            <br /><span> HTML | CSS | JavaScript </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-more">
+        <a href="https://github.com/nidhisoni" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          View More Projects
+        </a>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+
+    <section id="education" class="education">
+      <h2>My <span>Education</span></h2>
+
+      <div class="education-container">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <div class="education-content">
+            <h3>B.Tech - Computer Science & Engineering</h3>
+
+            <h4>Samrat Ashok Technological Institute</h4>
+
+            <p class="duration">2023 - 2027</p>
+
+            <p class="cgpa">Current CGPA: <span>8.23</span></p>
+
+            <p class="description">
+              Currently pursuing Bachelor's degree in Computer Science and
+              Engineering with interest in Web Development, Programming and
+              Software Development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Contact Section-->
+
+    <section id="contact" class="contact">
+      <h2>Contact <span>Me</span></h2>
+
+      <div class="contact-container">
+        <!-- Left Side -->
+
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+
+          <p>
+            I'm currently looking for internship opportunities and exciting
+            projects. Feel free to reach out!
+          </p>
+
+          <div class="info-box">
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+              <a href="mailto:nidhisoni29038@gmail.com">
+                nidhisoni29038@gmail.com
+              </a>
+            </span>
+          </div>
+
+          <div class="info-box">
+            <i class="fa-brands fa-github"></i>
+            <span>
+              <a href="https://github.com/nidhi-soni1203" target="_blank">
+                GitHub Profile
+              </a>
+            </span>
+          </div>
+
+          <div class="info-box">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/nidhi-soni-8b89912b3"
+                target="_blank"
+              >
+                LinkedIn Profile
+              </a>
+            </span>
+          </div>
+
+          <div class="info-box">
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <a href="tel:+919516225586"> +91 9516225586 </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+
+        <form class="contact-form">
+          <label for="name"></label>
+          <input id="name" type="text" placeholder="Your Name" required />
+
+          <label for="email"></label>
+          <input id="email" type="email" placeholder="Your Email" required />
+
+          <label for="text"></label>
+          <textarea id="text" rows="6" placeholder="Your Message"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <h2>Nidhi Soni</h2>
+        <p>Aspiring Software Developer | Web Developer | CSE Student</p>
+
+        <div class="footer-social">
+          <a href="https://github.com/nidhi-soni1203" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/nidhi-soni-8b89912b3" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="mailto:nidhisoni29038@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+
+        <hr>
+
+        <p class="copyright">
+          © 2026 Nidhi Soni. All Rights Reserved.
+        </p>
+
+      </div>
+
+      <a href="#" class="top-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
